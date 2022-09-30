@@ -1,0 +1,167 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  
+}
+
+.cabecalho{
+    margin: 0px 0px -30px 0px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.texto--acao{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 7px 0px;
+    
+}
+
+.principal {
+    background-image: url(assets/preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links--nav img{
+    margin-left: 15px;
+    
+}
+
+
+.link--especial::before{
+    content: "• ";
+}
+
+.link--especial::after{
+    content: " •";
+}
+
+.link--superior{
+    padding: 60px 0px;
+    display: flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seta--categorias{
+    position: absolute;
+}
+
+.link--inferior{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.links--play{
+    display: flex;
+    gap: 60px;
+}
+
+.link-programacao{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: white;
+}
+
+
+.mylist{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.botao--column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    color: white;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.botao--play{
+    width: 100px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.botao--play img{
+    width: 25px;
+}
+
+.conteudo--series{
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+    
+}
+
+.cards--serie{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.cards--serie::-webkit-scrollbar{ /*esse pseudo elemento webkit-scrollbar faz com que a barra de rolagem so scroll desapareça, mas continua rolando */
+    display: none;
+}
+
+.cards--serie img{
+    border-radius: 5px;
+    margin-top: -15px;
+   
+}
+
+.links--footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+    
+}
+
+.botao--search{
+    margin-top: 5px;
+}
+
+.tamanho--texto--footer{
+    font-size: 0.6em;
+}
