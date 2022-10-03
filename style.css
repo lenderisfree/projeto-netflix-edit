@@ -64,11 +64,10 @@ a{
     display: flex;
     gap: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-.seta--categorias{
-    position: absolute;
-}
+
 
 .link--inferior{
     display: flex;
@@ -186,9 +185,10 @@ span{
 .div--vermelha--icons{
     display: flex;
     flex-direction: column;
+    position: relative;
+    
     
 }
-
 
 .separacao--vermelha{
     height: 3px;
@@ -200,7 +200,7 @@ span{
     justify-content: space-around;
     align-items: center;
     gap: 30px;
-    height: 30px;
+    height: 27px;
     background-color: rgba(128, 128, 128, 0.619);
     border-radius: 0px 0px 5px 5px;
 }
@@ -211,15 +211,20 @@ span{
     background-color: rgba(0, 0, 0, 0.733);
     border-radius: 50%;
     border: 1px solid white;
-    position: relative;
-    bottom: 103px;
-    left: 30px;
+    position: absolute;
+    bottom: 88px;
+    left: 25px;
 }
 
 .botao--play--imgtopo img{
     position: absolute;
     bottom: 12px;
     left: 16px;
+}
+
+.icone--information{
+    top: 1.5px;
+    position: relative;
 }
 
 
