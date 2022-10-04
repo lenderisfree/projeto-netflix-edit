@@ -44,8 +44,7 @@ a{
 }
 
 .links--nav img{
-    margin-left: 15px;
-    
+    margin-left: 15px; 
 }
 
 
@@ -58,20 +57,21 @@ a{
 }
 
 .link--superior{
-    padding: 60px 0px;
+    padding: 50px 0px;
     display: flex;
     gap: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    align-items: center ;   
 }
 
-
+.categorias--icone{
+    display: flex;
+}
 
 .link--inferior{
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .links--play{
@@ -96,7 +96,6 @@ span{
     flex-direction: column;
 }
 
-
 .botao--column{
     display: flex;
     flex-direction: column;
@@ -106,7 +105,6 @@ span{
     color: white;
     gap: 5px;
     font-family: Arial, Helvetica, sans-serif;
-   
 }
 
 .botao--play{
@@ -131,8 +129,7 @@ span{
 .conteudo--series{
     display: flex;
     flex-direction: column;
-    padding: 10px; 
-    
+    padding: 10px;   
 }
 
 .cards--serie{
@@ -224,5 +221,7 @@ span{
     top: 1.5px;
     position: relative;
 }
+
+
 
 
